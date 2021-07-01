@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tanadol</title>
-  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">    
-</head>
-<body class="bg-black	">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanadol</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./stylesheets/main.css" />
+  </head>
+  <body>
+    <div class="max-w-screen-lg mx-auto space-y-10 px-5">
+      <!-- Navbar -->
+      <div
+        class="
+          flex flex-wrap
+          space-x-5
+          justify-end
+          p-5
+          border-b border-gray-500
+        "
+      >
+        <a href="#" class="underline hover:line-through">HOME</a>
+        <a href="/experience.html" class="hover:line-through">EXPERIENCE</a>
+        <a href="/contact.html" class="hover:line-through">CONTACT</a>
+      </div>
+
+      <div id="content" class="space-y-10">
+        <!-- greeting -->
+        <div class="border p-5 border-gray-500">
+          <div
+            class="
+              flex
+              space-y-5 space-x-5
+              justify-around
+              flex-wrap
+              md:justify-start md:flex-nowrap
+              lg:justify-start lg:flex-nowrap
+            "
+          >
+            <img
+              class="h-48 w-48"
+              src="https://avatars.githubusercontent.com/u/31311349?v=4"
+            />
+            <div>
+              <h1 class="text-xl">TANADOL DEACHPRAPAKORN</h1>
+              <br />
+              <p>
+                My name is Tanadol Deachprapakorn. I'm a computer engineering
+                undergraduate student at Faculty of Engineering, Chiang Mai
+                University.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- skills, interests -->
+        <div class="border p-5 border-gray-500">
+          <div class="flex flex-wrap">
+            <div class="skills-interests-item px-5">
+              <h1 class="text-xl border-b-2">SKILLS</h1>
+              <br />
+              <ul class="list-inside list-disc">
+                <li>Javascript / Java / C++</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Google Cloud Firestore</li>
+                <br />
+                <li>Fast-Learner</li>
+                <li>Flexible</li>
+                <li>Determined</li>
+                <li>Bilingual - English and Thai</li>
+              </ul>
+              <br />
+            </div>
+            <div
+              class="skills-interests-item md:border-l-2 px-5 border-gray-500"
+            >
+              <h1 class="text-xl border-b-2">INTERESTS</h1>
+              <br />
+              <ul class="list-inside list-disc">
+                <li>Javascript / Java / C++</li>
+                <li>React</li>
+                <li>Git</li>
+                <li>Google Cloud Firestore</li>
+                <br />
+                <li>Fast-Learner</li>
+                <li>Flexible</li>
+                <li>Determined</li>
+                <li>Bilingual - English and Thai</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+  </body>
 </html>

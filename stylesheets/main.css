@@ -1,0 +1,40 @@
+body {
+  color: white;
+  background-color: #1C1A1F;
+  font-family: "Open Sans", sans-serif;
+}
+li::marker {
+  content: "- ";
+}
+
+.skills-interests-item {
+  flex: 1;
+  min-width: 200px;
+}
+
+#content {
+  -webkit-animation: fadein 0.5s linear forwards;
+  animation: fadein 0.5s linear forwards;
+}
+
+.contact {
+  min-width: 200px;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
