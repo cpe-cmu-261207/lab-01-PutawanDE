@@ -2,7 +2,15 @@ body {
   color: white;
   background-color: #1C1A1F;
   font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
+footer {
+  margin-top: auto;
+}
+
 li::marker {
   content: "- ";
 }
