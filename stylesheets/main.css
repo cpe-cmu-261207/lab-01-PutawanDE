@@ -20,8 +20,8 @@ li::marker {
 }
 
 #content {
-  -webkit-animation: fadein 0.5s linear forwards;
-  animation: fadein 0.5s linear forwards;
+  -webkit-animation: fadein 0.75s linear forwards;
+  animation: fadein 0.75s linear forwards;
 }
 
 .contact {
