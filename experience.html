@@ -24,20 +24,20 @@
   <body>
     <div class="space-y-5 px-5">
       <!-- Navbar -->
-      <div
-        class="
-          flex flex-wrap
-          space-x-5
-          justify-end
-          p-5
-          border-b border-gray-500
-          max-w-screen-lg
-          mx-auto
-        "
-      >
-        <a href="/index.html" class="hover:line-through">HOME</a>
-        <a href="#" class="underline hover:line-through">EXPERIENCE</a>
-        <a href="/contact.html" class="hover:line-through">CONTACT</a>
+      <div class="mx-auto max-w-screen-lg px-5">
+        <div
+          class="
+            flex flex-wrap
+            space-x-5
+            justify-end
+            p-5
+            border-b border-gray-500
+          "
+        >
+          <a href="index.html" class="nav-link">HOME</a>
+          <a href="#" class="nav-link active">EXPERIENCE</a>
+          <a href="contact.html" class="nav-link">CONTACT</a>
+        </div>
       </div>
 
       <div id="content">
@@ -60,7 +60,7 @@
                     class="space-x-2"
                   >
                     <img src="./img/icon_link.svg" class="hyperlink-icon" />
-                    <h1 class="inline hover:line-through">WAANME</h1>
+                    <h1 class="inline hover:text-blue-500">WAANME</h1>
                   </a>
                 </div>
                 <br />
@@ -85,10 +85,17 @@
               <div>
                 <!-- header -->
                 <div class="border-b py-1">
-                  <h1>The 2nd Kibo Robot Programming Challenge</h1>
+                  <a
+                    href="https://www.nstda.or.th/jaxa-thailand/kibo-rpc-2021-20-final-list/"
+                    target="_blank"
+                    class="space-x-2 hover:text-blue-500"
+                  >
+                    <img src="./img/icon_link.svg" class="hyperlink-icon" />
+                    <h1 class="inline">
+                      Thailand's Top 20 Finalists Kibo RPC (Team Lynx)
+                    </h1>
+                  </a>
                 </div>
-                <br />
-                <p>Thai National Top 20 Finalist</p>
                 <br />
                 <p>
                   The Kibo RPC is a program in which students solve various
@@ -118,7 +125,7 @@
                     class="space-x-2"
                   >
                     <img src="./img/icon_link.svg" class="hyperlink-icon" />
-                    <h1 class="inline hover:line-through">
+                    <h1 class="inline hover:text-blue-500">
                       TCAS Countdown Twitter Bot
                     </h1>
                   </a>
@@ -150,7 +157,7 @@
                     class="space-x-2"
                   >
                     <img src="./img/icon_link.svg" class="hyperlink-icon" />
-                    <h1 class="inline hover:line-through">
+                    <h1 class="inline hover:text-blue-500">
                       Generative Art Gallery
                     </h1>
                   </a>
@@ -172,11 +179,13 @@
       </div>
 
       <!-- footer -->
-      <footer>
-        <div class="border-t border-gray-500 p-2 max-w-screen-lg mx-auto">
-          <p class="text-gray-400">© Tanadol Deachprapakorn 2021</p>
-        </div>
-      </footer>
+      <div class="mx-auto max-w-screen-lg px-5">
+        <footer>
+          <div class="border-t border-gray-500 p-2 max-w-screen-lg mx-auto">
+            <p class="text-gray-400">© Tanadol Deachprapakorn 2021</p>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
