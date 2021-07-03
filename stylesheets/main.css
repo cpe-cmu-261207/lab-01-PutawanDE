@@ -17,7 +17,7 @@ li::marker {
 
 h1 {
   font-size: 1.25rem;
-  line-height: 1.75rem;
+  line-height: 1.50rem;
 }
 
 .code {
@@ -26,6 +26,18 @@ h1 {
 
 .skills-interests-item {
   flex: 1 0 200px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.hyperlink-icon {
+  display: inline;
+  height: 1.50rem;
+  width: 1.50rem;
+  vertical-align: top;
 }
 
 #content {
